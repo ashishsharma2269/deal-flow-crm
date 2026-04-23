@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Deal Tracking CRM</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Deal Tracking CRM</h1>
+    <button onclick="showForm()">+ New Lead</button>
+  </header>
+
+  <div id="formContainer" class="hidden">
+    <input id="name" placeholder="Client Name">
+    <input id="project" placeholder="Project Type">
+    <input id="source" placeholder="Source">
+    <input id="contact" placeholder="Contact">
+    <input id="followup" type="date">
+    <textarea id="notes" placeholder="Notes"></textarea>
+    <button onclick="addLead()">Add Lead</button>
+  </div>
+
+  <div class="pipeline">
+    <div class="column" id="New Inquiry"><h2>New Inquiry</h2></div>
+    <div class="column" id="Meeting Done"><h2>Meeting Done</h2></div>
+    <div class="column" id="Proposal Sent"><h2>Proposal Sent</h2></div>
+    <div class="column" id="Negotiation"><h2>Negotiation</h2></div>
+    <div class="column" id="Won"><h2>Won</h2></div>
+    <div class="column" id="Lost"><h2>Lost</h2></div>
+  </div>
+
+<script src="script.js"></script>
+</body>
+</html>

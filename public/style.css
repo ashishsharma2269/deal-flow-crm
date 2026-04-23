@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f5f6fa;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #2f80ed;
+  color: white;
+  padding: 15px 20px;
+}
+
+button {
+  background: #27ae60;
+  border: none;
+  padding: 8px 12px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.pipeline {
+  display: flex;
+  gap: 15px;
+  padding: 20px;
+  overflow-x: auto;
+}
+
+.column {
+  background: white;
+  padding: 10px;
+  border-radius: 8px;
+  width: 250px;
+  min-height: 300px;
+}
+
+.card {
+  background: #ecf0f1;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 6px;
+}
+
+.hidden {
+  display: none;
+}
